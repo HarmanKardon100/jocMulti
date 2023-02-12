@@ -1,0 +1,81 @@
+.ball
+{
+    background-color: orange;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	display: inline-block;
+} 
+
+.trapezoid {
+	border-bottom: 250px solid rgb(192, 54, 54);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0px;
+	width: 200px;
+}
+
+.cup{
+    float: left;
+}
+
+
+.arrow-up-blue {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+
+    border-bottom: 40px solid rgb(0,191,255);
+    top: 300px;
+
+  }
+
+  .arrow-up-red {
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+
+    border-bottom: 40px solid rgb(255, 0, 0);
+    top: 263px;
+
+  }
+  
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+	top: 250px;
+}
+
+div.Column {
+    display: table-cell;
+    background-color: red; /*Optional*/
+}
+
+h1 {
+    display: inline;
+	left:10px;
+}
+
+.triangle-red {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid rgb(0,191,255);
+	border-bottom: 10px solid transparent;
+	float: left;
+	top: 7px;
+}
+
+.triangle-blue {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid rgb(255, 0, 0);
+	border-bottom: 10px solid transparent;
+	float: left;
+	top: 7px;
+}

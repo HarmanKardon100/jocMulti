@@ -1,0 +1,52 @@
+body {
+  background-color: #B9C9FA;
+}
+#content{
+	
+	margin: auto;
+	margin-top: 5%;
+	width: 10%;
+	background-color: #FAFAFA;
+	padding: 10%;
+}
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 1%;
+}
+#message2 {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 1%;
+}
+#message p {
+  font-size: 14px;
+}
+/* Add a green text color and a checkmark when the requirements are right */ .valid {
+  color: green;
+}
+.valid:before {
+  position: relative;
+  left: -1%;
+  content: "✔";
+}
+/* Add a red text color and an "x" when the requirements are wrong */ .invalid {
+  color: red;
+}
+.invalid:before {
+  position: relative;
+  left: -1%;
+  content: "✖";
+}
+.validImput{
+	
+	border: 2px solid green;
+}
+.invalidImput{
+	border: 2px solid red;
+}
